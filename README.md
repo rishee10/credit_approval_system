@@ -101,8 +101,8 @@ This Credit Approval System evaluates customer loan eligibility based on histori
 
 ## 5) View Customer Loans
 
-   Endpoint: GET /view-loans/<customer_id>
-   Description: View all loans for a specific customer
+    Endpoint: GET /view-loans/<customer_id>
+    Description: View all loans for a specific customer
 
 
      
