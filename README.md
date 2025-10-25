@@ -33,8 +33,6 @@ This Credit Approval System evaluates customer loan eligibility based on histori
 
 ---
 
----
-
 ## 🚀 Installation & Setup
 
 ### 🧰 Prerequisites
@@ -77,6 +75,39 @@ This Credit Approval System evaluates customer loan eligibility based on histori
    ```
    python manage.py runserver
    ```
+
+
+## API Endpoints
+
+## 1) Register Customer
+
+     Endpoint: POST /register
+     Description: Register a new customer with their details
+
+## 2) Check Loan Eligibility
+
+      Endpoint: POST /check-eligibility
+      Description: Check if a customer is eligible for a loan based on credit score
+
+## 3) Create Loan
+
+    Endpoint: POST /create-loan
+    Description: Create a new loan for an eligible customer
+
+## 4) View Loan Details
+    
+    Endpoint: GET /view-loan/<loan_id>
+    Description: View details of a specific loan
+
+## 5) View Customer Loans
+
+   Endpoint: GET /view-loans/<customer_id>
+   Description: View all loans for a specific customer
+
+
+     
+
+
    
 
 
